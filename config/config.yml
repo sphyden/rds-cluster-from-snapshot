@@ -1,0 +1,23 @@
+---
+example-config-db1:
+  engine: "<db engine name>"
+  engine_version: "<db engine version>"
+  paramgroup: "<parameter group name>"
+  vpc_security_groups: ["<security group id"]
+  public: False
+  subnet_group: "<subnet group id>"
+  ecs_cluster: "<ecs cluster name>"
+  ecs_service: "<ecs service name>"
+  ecs_sk_service: "<ecs sidekiq service>"
+  db_env_var: "<DB host env var key>"
+example-config-db2:
+  engine: "<db engine name>"
+  engine_version: "<db engine version>"
+  paramgroup: "<parameter group name>"
+  vpc_security_groups: ["<security group id"]
+  public: False
+  subnet_group: "<subnet group id>"
+  ecs_cluster: "<ecs cluster name>"
+  ecs_service: "<ecs service name>"
+  ecs_sk_service: "<ecs sidekiq service>"
+  db_env_var: "<DB host env var key>"
